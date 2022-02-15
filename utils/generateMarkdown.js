@@ -17,13 +17,13 @@ let licenseBadge = "";
 
 function licenseType(data) {
   if (data.license == "MIT"){
-    licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+    licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)";
 } if (data.license == "Apache") {
-    licenseBadge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
-} if (data.license == "GPL") {
-    licenseBadge = "[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)";
+    licenseBadge = "[![License: Apache v2](https://img.shields.io/badge/License-Apache%202.0-red.svg)](https://opensource.org/licenses/Apache-2.0)";
+} if (data.license == "GNU") {
+    licenseBadge = "[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v3-green.svg)](https://opensource.org/licenses/GPL-2.0)";
 } if (data.license == "BSD") {
-    licenseBadge = "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
+    licenseBadge = "[![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-yellow.svg)](https://opensource.org/licenses/BSD-3-Clause)";
 } else return;
 return licenseBadge;
 }
@@ -47,7 +47,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  ${data.license}
+  ${data.licenseType}
 
   ## Contributing
   ${data.contributing}
