@@ -32,30 +32,35 @@ return licenseBadge;
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ## Table of contents
+  ## Table of contents:
+
+  * [Description] (#description)
   * [Installation] (#installation)
   * [Usage] (#usage)
   * [License] (#license)
-  * [Contributing] (#contributing)
+  * [Contributions] (#contributions)
   * [Tests] (#tests)
   * [Questions] (#questions)
-  
-  ## Installation
-  ${data.installation}
 
-  ## Usage
-  ${data.usage}
-
-  ## License
+  ## License:
   ${data.licenseType}
 
-  ## Contributing
-  ${data.contributing}
+  ## Description:
+  ${data.description}
+  
+  ## Installation:
+  ${data.installation}
 
-  ## Tests 
+  ## Usage:
+  ${data.usage}
+
+  ## How to Contribute:
+  ${data.contributions}
+
+  ## Tests: 
   ${data.tests}
   
-  ## Questions
+  ## Questions:
   If you have any questions about this repository, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.username}](https://github.com/${data.username}).
 
 `;

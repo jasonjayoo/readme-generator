@@ -30,7 +30,7 @@ const questions = [
         choices: ["MIT", "Apache", "GNU", "BSD"]
     }, {
         type: "input",
-        name: "contributing",
+        name: "contributions",
         message: "Enter instructions on how to contribute to your project."
     }, {
         type: "input",
