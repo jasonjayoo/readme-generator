@@ -21,7 +21,7 @@ function licenseType(data) {
 } if (data.license == "Apache") {
     licenseBadge = "[![License: Apache v2](https://img.shields.io/badge/License-Apache%202.0-red.svg)](https://opensource.org/licenses/Apache-2.0)";
 } if (data.license == "GNU") {
-    licenseBadge = "[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v3-green.svg)](https://opensource.org/licenses/GPL-2.0)";
+    licenseBadge = "[![License: GNU v2](https://img.shields.io/badge/License-GNU%20v2-blue.svg)](https://opensource.org/licenses/GPL-2.0)";
 } if (data.license == "BSD") {
     licenseBadge = "[![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-yellow.svg)](https://opensource.org/licenses/BSD-3-Clause)";
 } else return;
