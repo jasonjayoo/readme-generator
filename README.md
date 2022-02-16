@@ -8,16 +8,14 @@
 
   ## Table of contents:
 
-  * [Description] (#description)
-  * [Table of Content] (#tableofcontent)
-  * [License] (#license)
-  * [Installation] (#installation)
-  * [Usage] (#usage)
-  * [Contributions] (#contributions)
-  * [Tests] (#tests)
-  * [Credits] (#credits)
-  * [Authors] (#authors)
-  * [Questions] (#questions)
+  * [License](#license)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributions](#contributions)
+  * [Tests](#tests)
+  * [Credits](#credits)
+  * [Author](#author)
+  * [Questions](#questions)
 
   <a name="license"></a>
   ## License:
@@ -29,21 +27,22 @@
 
   <a name="usage"></a>
   ## Usage:
-  None
+  N/A
 
   <a name="contributions"></a>
   ## How to Contribute:
-  None
+  Github
 
-  <a name="tests"></a>
+  
   ## Tests: 
-  None
+  npm and modularization test
+  <a name="tests"></a>
 
   <a name="credits"></a>
   ## Credits:
-  BCS Assistant, Tyler Welker, Marcus Lewis
+  BCS Assistant Zach
 
-  <a name="authors"></a>
+  <a name="author"></a>
   ## Author(s):
   Jason Yoo
   
