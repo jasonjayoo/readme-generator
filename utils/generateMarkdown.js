@@ -33,23 +33,23 @@ function licenseType(data) {
 for (let i = 0; i < data.license.length; i++) {
   const badgeType = data.license[i];
   if (badgeType == "MIT"){
-    licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)";
+    licenseBadge += "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)";
 } if (badgeType == "Apache") {
-    licenseBadge = "[![License: Apache v2](https://img.shields.io/badge/License-Apache%202.0-red.svg)](https://opensource.org/licenses/Apache-2.0)";
+    licenseBadge += "[![License: Apache v2](https://img.shields.io/badge/License-Apache%202.0-red.svg)](https://opensource.org/licenses/Apache-2.0)";
 } if (badgeType == "GNU") {
-    licenseBadge = "[![License: GNU v2](https://img.shields.io/badge/License-GNU%20v2-blue.svg)](https://opensource.org/licenses/GPL-2.0)";
+    licenseBadge += "[![License: GNU v2](https://img.shields.io/badge/License-GNU%20v2-green.svg)](https://opensource.org/licenses/GPL-2.0)";
 } if (badgeType == "BSD") {
-    licenseBadge = "[![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-yellow.svg)](https://opensource.org/licenses/BSD-3-Clause)";
-} else return;
+    licenseBadge += "[![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-yellow.svg)](https://opensource.org/licenses/BSD-3-Clause)";
+}
+}
 return licenseBadge;
 }
-}
-licenseType()
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
   # ${data.title}
+
   ${licenseType(data)}
   
   ## Description:
@@ -58,11 +58,14 @@ function generateMarkdown(data) {
   ## Table of contents:
 
   * [Description] (#description)
+  * [Table of Content] (#tableofcontent)
+  * [License] (#license)
   * [Installation] (#installation)
   * [Usage] (#usage)
-  * [License] (#license)
   * [Contributions] (#contributions)
   * [Tests] (#tests)
+  * [Credits] (#credits)
+  * [Authors] (#authors)
   * [Questions] (#questions)
 
   ## License:
@@ -79,10 +82,15 @@ function generateMarkdown(data) {
 
   ## Tests: 
   ${data.tests}
+
+  ## Credits:
+  ${data.credits}
+
+  ## Author(s):
+  ${data.author}
   
   ## Questions:
-  If you have any questions about this repository, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.username}](https://github.com/${data.username}).
-
+  For any questions regarding this application, you may reach me directly at ${data.email}. To view my other applications, please check out my github page [${data.username}](https://github.com/${data.username}).
 `;
 }
 

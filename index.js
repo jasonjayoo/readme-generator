@@ -11,40 +11,59 @@ const questions = [
         type: "input",
         name: "title",
         message: "What is the title of your project?"
-    }, {
+    }, 
+    {
         type: "input",
         name: "description",
         message: "What is the description of your project?"
-    }, {
+    }, 
+    {
         type: "input",
         name: "installation",
         message: "What are the instructions for installation?"
-    }, {
+    }, 
+    {
         type: "input",
         name: "usage",
         message: "What are the instructions for usage for your project?"
-    }, {
+    }, 
+    {
         type: "checkbox",
         name: "license",
         message: "Select A License.",
         choices: ["MIT", "Apache", "GNU", "BSD"]
-    }, {
+    }, 
+    {
         type: "input",
         name: "contributions",
         message: "Enter instructions on how to contribute to your project."
-    }, {
+    }, 
+    {
         type: "input",
         name: "tests",
         message: "Enter tests information."
-    }, {
+    }, 
+    {
+        type: "input",
+        name: "credits",
+        message: "Would you like to give any credit(s) to other individuals?"
+    }, 
+    {
+        type: "input",
+        name: "author",
+        message: "Name(s) of the author(s) of this project."
+    }, 
+    {
         type: "input",
         name: "questions",
         message: "Do you have any questions"
-    }, {
+    }, 
+    {
         type: "input",
         name: "username",
         message: "What is your github username?"
-    }, {
+    }, 
+    {
         type: "input",
         name: "email",
         message: "What is the email you would like to use?"

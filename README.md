@@ -1,46 +1,44 @@
 
-  # Jason
-  function licenseType(data) {
-  if (data.license == "MIT"){
-    licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)";
-} if (data.license == "Apache") {
-    licenseBadge = "[![License: Apache v2](https://img.shields.io/badge/License-Apache%202.0-red.svg)](https://opensource.org/licenses/Apache-2.0)";
-} if (data.license == "GNU") {
-    licenseBadge = "[![License: GNU v2](https://img.shields.io/badge/License-GNU%20v2-blue.svg)](https://opensource.org/licenses/GPL-2.0)";
-} if (data.license == "BSD") {
-    licenseBadge = "[![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-yellow.svg)](https://opensource.org/licenses/BSD-3-Clause)";
-} else return;
-return licenseBadge;
-}
+  # README.MD
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)[![License: Apache v2](https://img.shields.io/badge/License-Apache%202.0-red.svg)](https://opensource.org/licenses/Apache-2.0)[![License: GNU v2](https://img.shields.io/badge/License-GNU%20v2-green.svg)](https://opensource.org/licenses/GPL-2.0)[![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-yellow.svg)](https://opensource.org/licenses/BSD-3-Clause)
   
   ## Description:
-  ReadMe
+  Read Me Generator
 
   ## Table of contents:
 
   * [Description] (#description)
+  * [Table of Content] (#tableofcontent)
+  * [License] (#license)
   * [Installation] (#installation)
   * [Usage] (#usage)
-  * [License] (#license)
   * [Contributions] (#contributions)
   * [Tests] (#tests)
+  * [Credits] (#credits)
+  * [Authors] (#authors)
   * [Questions] (#questions)
 
   ## License:
-  GNU
+  MIT,Apache,GNU,BSD
   
   ## Installation:
-  none
+  Watch Video
 
   ## Usage:
-  none
+  Watch Video
 
   ## How to Contribute:
-  npm
+  None
 
   ## Tests: 
-  non
+  None
+
+  ## Credits:
+  Tyler
+
+  ## Author(s):
+  Jason Yoo
   
   ## Questions:
-  If you have any questions about this repository, open an issue or contact me directly at non. You can find more of my work at [non](https://github.com/non).
-
+  For any questions regarding this application, you may reach me directly at jasonjayoo@aol.com. To view my other applications, please check out my github page [jasonjayoo](https://github.com/jasonjayoo).
