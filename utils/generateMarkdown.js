@@ -68,27 +68,35 @@ function generateMarkdown(data) {
   * [Authors] (#authors)
   * [Questions] (#questions)
 
+  <a name="license"></a>
   ## License:
   ${data.license}
-  
+
+  <a name="installation"></a>
   ## Installation:
   ${data.installation}
 
+  <a name="usage"></a>
   ## Usage:
   ${data.usage}
 
+  <a name="contributions"></a>
   ## How to Contribute:
   ${data.contributions}
 
+  <a name="tests"></a>
   ## Tests: 
   ${data.tests}
 
+  <a name="credits"></a>
   ## Credits:
   ${data.credits}
 
+  <a name="authors"></a>
   ## Author(s):
   ${data.author}
   
+  <a name="questions"></a>
   ## Questions:
   For any questions regarding this application, you may reach me directly at ${data.email}. To view my other applications, please check out my github page [${data.username}](https://github.com/${data.username}).
 `;

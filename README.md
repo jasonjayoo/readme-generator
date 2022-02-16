@@ -1,10 +1,10 @@
 
   # README.MD
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)[![License: Apache v2](https://img.shields.io/badge/License-Apache%202.0-red.svg)](https://opensource.org/licenses/Apache-2.0)[![License: GNU v2](https://img.shields.io/badge/License-GNU%20v2-green.svg)](https://opensource.org/licenses/GPL-2.0)[![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-yellow.svg)](https://opensource.org/licenses/BSD-3-Clause)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   
   ## Description:
-  Read Me Generator
+  ReadMe Generator
 
   ## Table of contents:
 
@@ -19,26 +19,34 @@
   * [Authors] (#authors)
   * [Questions] (#questions)
 
+  <a name="license"></a>
   ## License:
-  MIT,Apache,GNU,BSD
-  
+  MIT
+
+  <a name="installation"></a>
   ## Installation:
-  Watch Video
+  None
 
+  <a name="usage"></a>
   ## Usage:
-  Watch Video
+  None
 
+  <a name="contributions"></a>
   ## How to Contribute:
   None
 
+  <a name="tests"></a>
   ## Tests: 
   None
 
+  <a name="credits"></a>
   ## Credits:
-  Tyler
+  BCS Assistant, Tyler Welker, Marcus Lewis
 
+  <a name="authors"></a>
   ## Author(s):
   Jason Yoo
   
+  <a name="questions"></a>
   ## Questions:
   For any questions regarding this application, you may reach me directly at jasonjayoo@aol.com. To view my other applications, please check out my github page [jasonjayoo](https://github.com/jasonjayoo).
