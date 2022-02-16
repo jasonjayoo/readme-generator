@@ -51,20 +51,40 @@ const questions = [
     }
 ];
 
+
+
+
+let licenseBadge = "";
+
+
+function licenseType(data) {
+  if (data.license == "MIT"){
+    licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)";
+} if (data.license == "Apache") {
+    licenseBadge = "[![License: Apache v2](https://img.shields.io/badge/License-Apache%202.0-red.svg)](https://opensource.org/licenses/Apache-2.0)";
+} if (data.license == "GNU") {
+    licenseBadge = "[![License: GNU v2](https://img.shields.io/badge/License-GNU%20v2-blue.svg)](https://opensource.org/licenses/GPL-2.0)";
+} if (data.license == "BSD") {
+    licenseBadge = "[![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-yellow.svg)](https://opensource.org/licenses/BSD-3-Clause)";
+} else return;
+return licenseBadge;
+}
+
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFile(fileName + '.md', data, function (err) {
-        if (err) {
-            console.log(err)
+function writeInFile(fileName, data) {
+    fs.writeFile(fileName + '.md', data, function (error) {
+        if (error) {
+            console.log(error)
         }
     })
 };
 
 // TODO: Create a function to initialize app
 async function init() {
-    const response = await inquirer.prompt(questions);
-    writeToFile("README", generateMarkdown(response));
+    const info = await inquirer.prompt(questions);
+    writeInFile("README", generateMarkdown(info));
 }
 
 // Function call to initialize app
 init();
+

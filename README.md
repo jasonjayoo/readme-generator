@@ -1,6 +1,7 @@
-# me
+# Jason J Yoo
 
-  ## Table of contents
+  ## Table of contents:
+
   * [Description] (#description)
   * [Installation] (#installation)
   * [Usage] (#usage)
@@ -9,25 +10,24 @@
   * [Tests] (#tests)
   * [Questions] (#questions)
 
-
-  ## Description:
-  me
-  
-  ## Installation:
-  me
-
-  ## Usage:
-  me
-
   ## License:
   undefined
 
+  ## Description:
+  none
+  
+  ## Installation:
+  none
+
+  ## Usage:
+  none
+
   ## How to Contribute:
-  me
+  none
 
   ## Tests: 
-  me
+  none
   
   ## Questions:
-  If you have any questions about this repository, open an issue or contact me directly at me. You can find more of my work at [me](https://github.com/me).
+  If you have any questions about this repository, open an issue or contact me directly at none. You can find more of my work at [none](https://github.com/none).
 
