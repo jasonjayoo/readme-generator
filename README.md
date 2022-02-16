@@ -1,7 +1,7 @@
 
   # README.MD
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+  [![License: GNU v2](https://img.shields.io/badge/License-GNU%20v2-green.svg)](https://opensource.org/licenses/GPL-2.0)
   
   ## Description:
   ReadMe Generator
@@ -17,35 +17,35 @@
   * [Author](#author)
   * [Questions](#questions)
 
-  <a name="license"></a>
+  
   ## License:
-  MIT
+  GNU
 
-  <a name="installation"></a>
+  
   ## Installation:
-  None
+  npm installation inquirer and fs
 
-  <a name="usage"></a>
+  
   ## Usage:
-  N/A
+  terminal application for readme 
 
-  <a name="contributions"></a>
+  
   ## How to Contribute:
-  Github
+  Github or Email
 
   
   ## Tests: 
-  npm and modularization test
-  <a name="tests"></a>
+  Run in terminal
+  
 
-  <a name="credits"></a>
+  
   ## Credits:
   BCS Assistant Zach
 
-  <a name="author"></a>
+  
   ## Author(s):
   Jason Yoo
   
-  <a name="questions"></a>
+  
   ## Questions:
-  For any questions regarding this application, you may reach me directly at jasonjayoo@aol.com. To view my other applications, please check out my github page [jasonjayoo](https://github.com/jasonjayoo).
+  For any questions regarding this application, you may reach me directly at jasonjayoo@outlook.com. To view my other applications, please check out my github page [jasonjayoo](https://github.com/jasonjayoo).
