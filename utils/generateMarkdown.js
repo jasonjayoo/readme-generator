@@ -1,34 +1,7 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-
-function renderLicenseSection(license) {}
-
-
+// Global variable set for licenseBadge - depending on what license the user selects, if none is selected it will return an empty string. 
 let licenseBadge = "";
 
-
-// function licenseType(data) {
-//   if (data.license == "MIT"){
-//     licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)";
-// } if (data.license == "Apache") {
-//     licenseBadge = "[![License: Apache v2](https://img.shields.io/badge/License-Apache%202.0-red.svg)](https://opensource.org/licenses/Apache-2.0)";
-// } if (data.license == "GNU") {
-//     licenseBadge = "[![License: GNU v2](https://img.shields.io/badge/License-GNU%20v2-blue.svg)](https://opensource.org/licenses/GPL-2.0)";
-// } if (data.license == "BSD") {
-//     licenseBadge = "[![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-yellow.svg)](https://opensource.org/licenses/BSD-3-Clause)";
-// } else return;
-// return licenseBadge;
-// }
-// licenseType()
-
+// This function renders the license badge with an svg link, link to opensource site with license information, and allows for the license information to be called from the markdown readme.md template. 
 function licenseType(data) {
 for (let i = 0; i < data.license.length; i++) {
   const badgeType = data.license[i];
@@ -45,7 +18,7 @@ for (let i = 0; i < data.license.length; i++) {
 return licenseBadge;
 }
 
-// TODO: Create a function to generate markdown for README
+// This function generates the markdown for README and links the users input in to the ${""""""}.
 function generateMarkdown(data) {
   return `
   # ${data.title}
@@ -87,7 +60,6 @@ function generateMarkdown(data) {
   ${data.tests}
   
 
-  
   ## Credits:
   ${data.credits}
 
@@ -97,8 +69,10 @@ function generateMarkdown(data) {
   
   
   ## Questions:
-  For any questions regarding this application, you may reach me directly at ${data.email}. To view my other applications, please check out my github page [${data.username}](https://github.com/${data.username}).
+  For any questions regarding this application, you may reach me directly at ${data.email}. 
+  To view my other applications, please check out my github page [${data.username}](https://github.com/${data.username}).
 `;
 }
 
+// this exports the file to be used within the index.js file.
 module.exports = generateMarkdown;
