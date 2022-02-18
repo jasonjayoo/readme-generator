@@ -4,7 +4,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   
   ## Description:
-  Create a ReadMe Generator with Node.js
+  Creates a readme generator using node.js
 
   ## Table of contents:
 
@@ -23,15 +23,15 @@
 
   
   ## Installation:
-  Clone files from my github repository
+  Clone the files from my github repository
 
   
   ## Usage:
-  Open the files in vsc
+  Open the files in your vs code
 
   
-  ## How to Contribute:
-  Reach me at my email provided below.
+  ## Contributions:
+  Reach out to me via email, provided below
 
   
   ## Tests: 
@@ -39,12 +39,13 @@
   
 
   ## Credits:
-  BCS Assistant Zach
+  BCS Learning Assistant Zach, very helpful
 
   
-  ## Author(s):
+  ## Author:
   Jason Yoo
   
   
   ## Questions:
-  For any questions regarding this application, you may reach me directly at jasonjayoo@outlook.com.<br> To view my other applications, please check out my github page [jasonjayoo](https://github.com/jasonjayoo).
+  For any questions regarding this application, you may reach me directly at jasonjayoo@outlook.com. 
+  To view my other applications, please check out my github page [jasonjayoo](https://github.com/jasonjayoo).

@@ -52,7 +52,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   
-  ## How to Contribute:
+  ## Contributions:
   ${data.contributions}
 
   
@@ -64,7 +64,7 @@ function generateMarkdown(data) {
   ${data.credits}
 
   
-  ## Author(s):
+  ## Author:
   ${data.author}
   
   
