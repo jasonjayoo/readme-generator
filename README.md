@@ -39,10 +39,9 @@
   <br>
 
   ## Video:
-  <br>
-  <!-- [![Video Link](video/video-tutorial.webm)](https://youtu.be/wsGpxs5Is-A "Click to Watch Demo!") -->
+
+  [![Video-Link](images/youtubescreenshot.png)](https://youtu.be/wsGpxs5Is-A)
   
-  <a href="https://youtu.be/wsGpxs5Is-A">Click to Watch Demo</a>
   
   <br> 
   <br>
@@ -115,7 +114,6 @@
   <br>
 
   ## Questions:
-  <br>
   For any questions regarding this application, you may reach me directly at jasonjayoo@outlook.com.
-  <br> 
+  
   To view my other applications, please check out my github page [jasonjayoo](https://github.com/jasonjayoo).
